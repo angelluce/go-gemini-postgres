@@ -1,0 +1,31 @@
+.env
+.cache/
+
+# Binarios ejecutables de Go
+*.exe
+*.bin
+
+# Binarios y directorios de construcción temporales
+bin/
+obj/
+build/
+tmp/
+
+# Logs
+*.log
+logs/
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Entornos de IDE/Editor
+.idea/
+.vscode/
+
+# Archivos generados por paquetes
+*.mp3
+*.wav
+
+/output/
