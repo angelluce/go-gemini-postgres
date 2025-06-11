@@ -83,6 +83,18 @@ go run main.go
 
 La API se iniciará y escuchará en el puerto especificado en tu archivo `.env` (por defecto, `localhost:8080`).
 
+## Ejecutar la Aplicación con Docker
+
+El proyecto implementó la técnica multi-stage build con la finalidad optimizar el tamaño de la imágen final
+
+```bash
+docker compose up -d
+
+docker logs go-gemini-postgres-app-1
+
+docker compose down
+```
+
 ## Endpoints de la API
 
 La API expone los siguientes endpoints:
